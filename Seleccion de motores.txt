@@ -1,0 +1,1 @@
+En preferencia eligiria ejs. Es un motor mas ordenado en cuanto a carpetas y mas practico la aplicacion de codigo con respecto a pug y handlebars.
