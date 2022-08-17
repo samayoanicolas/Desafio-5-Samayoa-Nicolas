@@ -1,0 +1,19 @@
+{{> navbar}}
+<br/>
+
+<h1>Formulario de Carga</h1>
+ <div>
+       <button><a href='/products'>Ver lista de productos</a></button>
+    </div>
+<div>
+    <form method="post" action="/products"/> 
+       <input type="text" placeholder="Product" name="title" id="title"/>
+       <input type="text" placeholder="Price" name="price" id="price"/>
+       <input type="text" placeholder="thumbnail" name="thumbnail" id="thumbnail"/>
+       <input type="submit" value="Enviar archivo">
+    </form>
+</div>
+
+<br/>
+{{> footer}}
+<br/>

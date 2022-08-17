@@ -1,0 +1,12 @@
+html 
+    head
+        title="Cargar producto"
+        
+    body 
+        h1=title 
+        a(class='button' href='/products') Listado de productos
+        form(action="/products", method="post") 
+            input(type="text",name="name",id="name")
+            input(type="text",name="price",id="price")
+            input(type="text",name="thumbnail",id="thumbnail")
+            input(type="submit", value="Cargar")
